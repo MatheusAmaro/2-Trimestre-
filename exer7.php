@@ -10,7 +10,7 @@ function MesNum ($mes) {
      break;
 
      case 3;
-     echo "MarÃ§o"."\n";
+     echo "Março"."\n";
      break;
 
      case 4;
@@ -53,7 +53,7 @@ return $mes;
 }
 
 
-print "Digite qualquer nÃºmero entre 1 a 12, e veja qual mÃªs ele corresponde.\n\n" ;
+print "Digite qualquer número entre 1 a 12, e veja qual mês ele corresponde.\n\n" ;
 $mes= (int) fgets (STDIN);
 
 MesNum ($mes);
