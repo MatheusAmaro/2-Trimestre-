@@ -13,6 +13,6 @@ print "\n\nDigite o valor do cateto B: ";
 $Cb = (float) fgets (STDIN);
 
 $hip = calcular ($Ca, $Cb);
-print "\n\nO valor da hiipotenusa é : $hip";
+print "\n\nO valor da hipotenusa é : $hip";
 
 print "Fim Algoritmo" ;
