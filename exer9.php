@@ -1,14 +1,22 @@
-<php
-function Divisao ($x , $y){
-    if ($x % $y ==0){
-    return 1;
+<?php 
+
+function variável ($x , $y){
+
+if  ($x % $y == 0) { 
+$div =  "1\n";
 }
-else {
-    return 0;
+else{     
+$div = "0\n";
+} 
+return ($div);
 }
 
-}
-print "Digite qualquer número inteiro : \n" ;
+print "Escreva 1 valor para x:\n";
 $x = (int) fgets (STDIN);
-print "Novamente digite qualquer outro número inteiro" ;
+print "Escreva 1 valor para y:\n";
 $y = (int) fgets (STDIN);
+
+$div = variável ($x, $y);
+print "$div";
+
+print "Fim Algoritmo";
