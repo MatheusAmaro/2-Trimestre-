@@ -15,4 +15,4 @@ $Cb = (float) fgets (STDIN);
 $hip = calcular ($Ca, $Cb);
 print "\n\nO valor da hipotenusa é : $hip";
 
-print "Fim Algoritmo" ;
+print "Fim Algoritmo";
